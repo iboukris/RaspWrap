@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\PLAP Providers\{A9F16D81-484C-42E2-B4AD-1D36B57F14AD}]
+@="RaspWrapCredentialProvider"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Provider Filters\{A9F16D81-484C-42E2-B4AD-1D36B57F14AD}]
+@="RaspWrapCredentialProvider"
+
+[HKEY_CLASSES_ROOT\CLSID\{A9F16D81-484C-42E2-B4AD-1D36B57F14AD}]
+@="RaspWrapCredentialProvider"
+
+[HKEY_CLASSES_ROOT\CLSID\{A9F16D81-484C-42E2-B4AD-1D36B57F14AD}\InprocServer32]
+@="RaspWrapCredentialProvider.dll"
+"ThreadingModel"="Apartment"
